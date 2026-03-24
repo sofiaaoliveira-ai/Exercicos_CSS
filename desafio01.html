@@ -1,163 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante Japonês Sabor do Oriente</title>
+    <title>Document</title>
     <style>
-        /* Estilização Geral */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-            line-height: 1.4;
+        body{
+            background-color: rgb(235, 226, 213);
         }
-
-        header h1 {
+        h1{
             text-align: center;
-            font-size: 24px;
-            margin-bottom: 10px;
         }
-
-        header p {
-            font-size: 14px;
-            margin-bottom: 20px;
+        .p_menu{
+            background-color: rgb(3, 135, 135);
+            color: aliceblue;
+            border-radius: 15%;
+            padding: 5px;
         }
-
-        h2 {
-            font-size: 20px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-        /* Lista de Pratos Populares (Barras Azuis) */
-        .pratos-lista {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-            margin-bottom: 30px;
-        }
-
-        .item-prato {
-            background-color: #5dade2; /* Azul claro da imagem */
-            color: white;
-            padding: 6px 15px;
-            border-radius: 2px;
-            font-size: 14px;
-            border: 1px solid #3498db;
-        }
-
-        /* Seção da Imagem e Descrição */
-        .conteudo-sushi {
+        .img_div{
             text-align: center;
-            margin-bottom: 30px;
         }
-
-        .conteudo-sushi img {
-            width: 400px;
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ccc;
-            margin-bottom: 15px;
-        }
-
-        .texto-sushi {
-            text-align: left;
-            font-size: 13px;
-            color: #555;
-            line-height: 1.6;
-        }
-
-        /* Tabela de Horários */
-        .tabela-horarios {
+        table{
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
         }
-
-        .tabela-horarios thead th {
-            background-color: #2ecc71; /* Verde vibrante da imagem */
-            color: white;
-            text-align: left;
-            padding: 10px;
-            font-size: 15px;
-        }
-
-        .tabela-horarios td {
-            padding: 10px;
-            border-bottom: 1px solid #eee;
-            font-size: 14px;
-        }
-
-        .col-dia {
-            width: 70%;
-        }
-
-        .col-hora {
-            width: 30%;
-        }
-
-        /* Ajuste para alinhar com a imagem original */
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
+        th{
+            background-color: green;
+            color: aliceblue;
         }
     </style>
 </head>
-<body>
-
-<div class="container">
-    <header>
-        <h1>Restaurante Japonês Sabor do Oriente</h1>
-        <p>Bem-vindo ao Restaurante Japonês Sabor do Oriente, onde você pode desfrutar da autêntica culinária japonesa.</p>
-    </header>
-
-    <section>
-        <h2>Pratos Populares:</h2>
-        <div class="pratos-lista">
-            <div class="item-prato">Sushi Variado</div>
-            <div class="item-prato">Sashimi</div>
-            <div class="item-prato">Temaki</div>
-            <div class="item-prato">Yakissoba</div>
-            <div class="item-prato">Missoshiro</div>
-        </div>
-    </section>
-
-    <section class="conteudo-sushi">
+<body>  
+    <h1>Restaurante Sabor do Oriente</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h2>Pratos Populares:</h2>
+    <p class="p_menu">Prato 1</p>
+    <p class="p_menu">Prato 2</p>
+    <p class="p_menu">Prato 3</p>
+    <p class="p_menu">Prato 4</p>
+    <p class="p_menu">Prato 5</p>
+    <hr>
+    <div class="img_div">
         <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=400" alt="Sushis alinhados">
-        
-        <div class="texto-sushi">
-            <p><strong>Sushi: Uma Delícia Japonesa</strong> Sushi é uma das iguarias mais conhecidas e apreciadas da culinária japonesa. Com suas origens ancestrais nas técnicas de conservação de peixe no sudeste asiático, o sushi evoluiu ao longo dos séculos para se tornar uma arte culinária refinada e uma experiência gastronômica única. O sushi tradicionalmente consiste em arroz temperado com vinagre de arroz, combinado com uma variedade de ingredientes frescos, como peixe cru, frutos do mar, vegetais e até mesmo omeletes doces. Uma das características mais marcantes do sushi é a sua apresentação cuidadosa e artística, que reflete a estética japonesa de simplicidade e harmonia. Existem várias formas populares de sushi, incluindo nigiri (arroz coberto com fatias finas de peixe), sashimi (fatias finas de peixe cru servidas sem arroz), maki (rolinhos de arroz e ingredientes envoltos em algas marinhas) e temaki (cones de alga recheados com arroz e ingredientes).</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Horários de Funcionamento:</h2>
-        <table class="tabela-horarios">
-            <thead>
-                <tr>
-                    <th class="col-dia">Dia da Semana</th>
-                    <th class="col-hora">Horário</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Segunda-feira a Quinta-feira</td>
-                    <td>18:00 - 22:00</td>
-                </tr>
-                <tr>
-                    <td>Sexta-feira e Sábado</td>
-                    <td>18:00 - 23:00</td>
-                </tr>
-                <tr>
-                    <td>Domingo</td>
-                    <td>Fechado</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-</div>
-
+    </div>
+    <p>Sushi: Uma Delícia Japonesa</strong> Sushi é uma das iguarias mais conhecidas e apreciadas da culinária japonesa. Com suas origens ancestrais nas técnicas de conservação de peixe no sudeste asiático, o sushi evoluiu ao longo dos séculos para se tornar uma arte culinária refinada e uma experiência gastronômica única. O sushi tradicionalmente consiste em arroz temperado com vinagre de arroz, combinado com uma variedade de ingredientes frescos, como peixe cru, frutos do mar, vegetais e até mesmo omeletes doces. Uma das características mais marcantes do sushi é a sua apresentação cuidadosa e artística, que reflete a estética japonesa de simplicidade e harmonia. Existem várias formas populares de sushi, incluindo nigiri (arroz coberto com fatias finas de peixe), sashimi (fatias finas de peixe cru servidas sem arroz), maki (rolinhos de arroz e ingredientes envoltos em algas marinhas) e temaki (cones de alga recheados com arroz e ingredientes).</p>
+    <hr>
+    <h2>Horário de Funcionamento</h2>
+    <table>
+        <tr>
+            <th>Dia da Semana</th>
+            <th>Horário</th>
+        </tr>
+        <tr>
+            <td>Seg - Qui</td>
+            <td>18h às 22h</td>
+        </tr>
+        <tr>
+            <td>Sex e Sab</td>
+            <td>18h às 23h</td>
+        </tr>
+        <tr>
+            <td>Dom</td>
+            <td>Fechado</td>
+        </tr>
+    </table>
 </body>
 </html>
