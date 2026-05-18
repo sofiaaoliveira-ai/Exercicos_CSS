@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 04 - Menu</title>
+    <style>
+          *{
+                margin: 0 auto;
+                padding: 0;
+            }
+        .menu{
+            background-color: rgb(37, 61, 139);
+            width: 100%;
+            height: 40px;
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 500px;
+        }
+        .menu ul li{          
+            background-color: rgb(37, 61, 139);
+            color: white;
+            float: left;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+           }
+             .menu ul li:hover{
+            background-color:rgb(116, 116, 191); 
+        } 
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+        .menu ul ul li:hover{
+            background-color:rgb(86, 226, 205); 
+        }
+        .menu ul ul ul li:hover{
+            background-color:rgb(86, 226, 205); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="menu">
+        <ul>
+            <li>Banana</li>
+            <li>Maça</li>
+            <li>Abacate
+                <ul>
+                    <li>Avocado</li>
+                    <li>Nacional</li>
+                    <li>Impotado</li>
+                </ul>
+            </li>
+            <li>Abacaxi</li>
+    
+</body>
+</html>
